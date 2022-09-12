@@ -19,7 +19,6 @@ public class CustomerDAOImplementation implements CustomerDAO{
     private SessionFactory sessionFactory;
 
     @Override
-    @Transactional
     public List<Customer> getCustomers() {
         Session currentSession = sessionFactory.getCurrentSession();
 
