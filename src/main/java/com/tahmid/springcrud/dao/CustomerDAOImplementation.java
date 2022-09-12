@@ -27,6 +27,12 @@ public class CustomerDAOImplementation implements CustomerDAO{
         List<Customer> customers = theQuery.getResultList();
         return customers;
     }
+
+    @Override
+    public void saveCustomer(Customer theCustomer) {
+        Session currentSession = sessionFactory.getCurrentSession();
+        currentSession.save(theCustomer);
+    }
 }
 
 
