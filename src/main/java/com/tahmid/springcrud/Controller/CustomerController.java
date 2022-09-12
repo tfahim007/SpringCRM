@@ -43,12 +43,20 @@ public class CustomerController {
     @GetMapping("/showFormForUpdate")
     public String showFormForUpdate(@RequestParam("customerId") int theId,
                                     Model theModel){
-        System.out.println("===========BREAK==========");
+
         Customer theCustomer = customerService.getCustomer(theId);
-        System.out.println(theCustomer.toString());
+//        System.out.println(theCustomer.toString());
         theModel.addAttribute("customer",theCustomer);
 
         return "customer-form";
+    }
+
+    @GetMapping("/delete")
+    public String delete(@RequestParam("customerId") int theId){
+        customerService.deleteCustomer(theId);
+
+        return "redirect:/customer/list";
+
     }
 
 
