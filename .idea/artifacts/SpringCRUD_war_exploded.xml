@@ -37,9 +37,6 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-core:5.3.22" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.3.22" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.3.22" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.3.22" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.3.22" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.3.22" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.3.22" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:5.3.22" />
           <element id="library" level="project" name="Maven: org.springframework:spring-orm:5.3.22" />
@@ -48,6 +45,11 @@
           <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
           <element id="library" level="project" name="Maven: com.mchange:c3p0:0.9.5.5" />
           <element id="library" level="project" name="Maven: com.mchange:mchange-commons-java:0.2.19" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.3.22" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.3.22" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.3.22" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aspects:5.3.22" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.9.7" />
         </element>
       </element>
       <element id="directory" name="META-INF">
